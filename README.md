@@ -55,6 +55,6 @@ To build a modern, high-converting hero section and navigation bar strictly foll
 - Designed to accurately match the proportions, colors, and layout shown in `05.png`.
 
 ## 9. Deployment Information
-- **GitHub Repository:** Private repository `laundry-hero-section-task`
+- **GitHub Repository:** [laundry-hero-section-task](https://github.com/apandey-dev/laundry-hero-section-task) (Private)
 - **Deployment Platform:** Vercel
 - **Live URL:** To be updated after deployment
