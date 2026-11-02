@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Services - Hero Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar (Built strictly without Flexbox) -->
+    <header class="navbar">
+        <div class="nav-brand">
+            <span class="logo">Logo</span>
+        </div>
+        <nav class="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="nav-user">
+            <span class="user-badge">Username</span>
+        </div>
+    </header>
+
+    <!-- Main Hero Section (Two-column layout using inline-block, No Flexbox) -->
+    <main class="hero-section">
+        <!-- Left Content Column -->
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Revitalize Your<br>
+                Clothes with Expert<br>
+                <span class="highlight">Laundry Services!</span>
+            </h1>
+            <p class="hero-description">
+                From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!
+            </p>
+            <a href="#book" class="hero-btn">Book a service today!</a>
+        </div><!--
+        Remove whitespace between inline-block elements
+        --><div class="hero-image-wrapper">
+            <img src="hero-laundry.png" alt="3D Laundry Washing Machine" class="hero-img">
+        </div>
+    </main>
+
+</body>
+</html>

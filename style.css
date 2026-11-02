@@ -1,0 +1,155 @@
+/* Reset & Box Sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #243342;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* =========================================
+   Navbar (Display inline / inline-block, No Flexbox)
+   ========================================= */
+.navbar {
+    width: 100%;
+    padding: 2.5vh 5vw;
+    font-size: 0; /* Remove inline-block spacing */
+}
+
+.nav-brand {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1e293b;
+    letter-spacing: -0.5px;
+}
+
+.nav-menu {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 16px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #64748b;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #0099ff;
+}
+
+.nav-user {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.user-badge {
+    display: inline-block;
+    background-color: #e9f5ff;
+    color: #0099ff;
+    padding: 10px 22px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* =========================================
+   Hero Section (Inline-block layout, No Flexbox)
+   ========================================= */
+.hero-section {
+    width: 100%;
+    padding: 4vh 5vw 2vh 5vw;
+    font-size: 0; /* Remove inline-block whitespace gap */
+}
+
+/* Left Hero Content */
+.hero-content {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    padding-right: 3vw;
+}
+
+.hero-title {
+    font-size: 44px;
+    line-height: 1.25;
+    font-weight: 800;
+    color: #2b3a4a;
+    letter-spacing: -0.8px;
+    margin-bottom: 22px;
+}
+
+.hero-title .highlight {
+    color: #0099ff;
+}
+
+.hero-description {
+    font-size: 16px;
+    line-height: 1.65;
+    color: #8292a4;
+    margin-bottom: 34px;
+    max-width: 480px;
+}
+
+.hero-btn {
+    display: inline-block;
+    background-color: #0099ff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0, 153, 255, 0.25);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-btn:hover {
+    background-color: #0084dd;
+}
+
+/* Right Hero Image Wrapper */
+.hero-image-wrapper {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hero-img {
+    max-width: 440px;
+    width: 90%;
+    height: auto;
+    display: inline-block;
+}
